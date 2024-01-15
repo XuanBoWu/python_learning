@@ -22,13 +22,14 @@ class User:
     def reset_login_attempts(self):
         self.login_attempts = 0
 
-user_1 = User("alex", "wu", "male", 25)
+if __name__ == '__main__':
+    user_1 = User("alex", "wu", "male", 25)
 
-user_1.increment_login_attempts()
-user_1.increment_login_attempts()
-user_1.increment_login_attempts()
+    user_1.increment_login_attempts()
+    user_1.increment_login_attempts()
+    user_1.increment_login_attempts()
 
-print(user_1.login_attempts)
+    print(user_1.login_attempts)
 
-user_1.reset_login_attempts()
-print(user_1.login_attempts)
+    user_1.reset_login_attempts()
+    print(user_1.login_attempts)

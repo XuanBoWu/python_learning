@@ -21,14 +21,14 @@ class Restaurant:
 
 
 
+if __name__ == '__main__':
+    my_restaurant = Restaurant("McDonald's", "Fried chicken and burgers")
 
-my_restaurant = Restaurant("McDonald's", "Fried chicken and burgers")
+    my_restaurant.describe_restaurant()
+    my_restaurant.open_restaurant()
 
-my_restaurant.describe_restaurant()
-my_restaurant.open_restaurant()
+    my_restaurant.set_number_served(10)
 
-my_restaurant.set_number_served(10)
+    my_restaurant.increment_number_served(20)
 
-my_restaurant.increment_number_served(20)
-
-print(my_restaurant.number_served)
+    print(my_restaurant.number_served)
