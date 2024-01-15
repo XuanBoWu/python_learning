@@ -19,6 +19,7 @@ class Privileges():
             print(f"- {permission}")
 
 
-admin = Admin("alex", "wu", "male", 25)
+if __name__ == '__main__':
+    admin = Admin("alex", "wu", "male", 25)
 
-admin.show_privilleges()
+    admin.show_privilleges()
