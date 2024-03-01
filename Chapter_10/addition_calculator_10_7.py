@@ -4,12 +4,12 @@ while True:
     b_str = input("Please type a int number again:")
         
     try:
-
         a = int(a_str)
         b = int(b_str)
     except ValueError:
         print("Plese type a number!")
     else:
+        print("Result:", end="")
         print(a + b)
 
 
