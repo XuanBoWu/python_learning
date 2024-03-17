@@ -2,3 +2,6 @@ book_file/*
 
 **/.DS_Store
 .vscode/*
+
+# 忽略meal_planner 的虚拟环境
+meal_planner/mp_env
